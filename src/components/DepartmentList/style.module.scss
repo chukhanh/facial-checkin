@@ -1,0 +1,19 @@
+@import 'styles/variable.scss';
+
+.nameWrapper {
+  display: flex;
+  justify-content: flex-end;
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    .buttonStyle {
+      background: $color-button !important;
+      color: #fff !important;
+      margin-left: 1rem;
+    }
+    .buttonCancelStyle {
+      background: #c4c4c4 !important;
+      color: #fff !important;
+    }
+  }
+}

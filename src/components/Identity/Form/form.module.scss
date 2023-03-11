@@ -1,0 +1,102 @@
+@import 'styles/variable.scss';
+
+.formLogo {
+    width: 18%;
+    margin: auto;
+}
+
+.formTitle {
+    font-weight: bold;
+    font-family: $font-family-base;
+    font-size: $font-size-heading2;
+    line-height: 6rem;
+    text-align: center;
+    margin-bottom: 0 !important;
+        
+    color: $color-black; 
+}
+
+.formNote {
+    font-family: $font-family-base;
+    font-size: $font-size-heading5;
+    line-height: 3.3rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    color: $color-gray;
+}
+
+.formButton{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 5rem;
+    .button {
+        width: 25%;
+        background-color: $color-button;
+        color: white;
+        border-radius: 1rem;
+        padding: 1rem 5rem;
+        outline: none;
+
+        font-family: $font-family-base;
+        font-size: $font-size-heading5;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-height: 768px) and (max-width: 1366px) {
+
+    .formLogo {
+        width: 25%;
+    }
+
+    .formTitle{
+        font-size: $font-size-heading4;
+        line-height: 4rem;
+    }
+
+    .formNote {
+        font-size: $font-size-heading6;
+        line-height: 2.5rem;
+    }
+
+    .formButton {
+        padding: 1rem;
+        .button{
+            width: 30%;
+            padding: 0.8rem 2rem;
+
+            font-family: $font-family-base;
+            font-size: $font-size-heading5;
+        }
+    }
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1024px){
+    .formLogo {
+        width: 25%;
+    }
+
+    .formTitle{
+        font-size: $font-size-heading5;
+        line-height: 3.5rem;
+    }
+
+    .formNote {
+        font-size: $font-size-base;
+        line-height: 2rem;
+    }
+
+    .formButton {
+        padding: 0.5rem;
+        .button{
+            width: 30%;
+            padding: 0.5rem 2rem;
+
+            font-family: $font-family-base;
+            font-size: $font-size-base;
+        }
+    }
+}

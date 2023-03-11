@@ -1,0 +1,22 @@
+@import 'styles/variable.scss';
+.title {
+  font-size: $font-size-base;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  .buttonStyle {
+    width: 10rem;
+    background: $color-button !important;
+    color: #fff !important;
+  }
+
+  .buttonCancelStyle {
+    width: 10rem;
+    background: #c4c4c4 !important;
+    color: #fff !important;
+  }
+}

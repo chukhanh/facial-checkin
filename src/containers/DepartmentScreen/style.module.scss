@@ -1,0 +1,70 @@
+@import 'styles/variable.scss';
+
+.buttonStyle {
+  background: $color-button !important;
+  color: #fff !important;
+}
+
+.buttonCancelStyle {
+  background: #c4c4c4 !important;
+  color: #fff !important;
+}
+
+.deleteButton {
+  width: 12rem;
+  margin-left: 2rem !important;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 2rem 4rem;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  margin: 2rem 3rem 2rem 3rem;
+  .searchWrapper {
+    width: 170rem;
+    padding: 2rem 4rem;
+    background: #fff;
+    will-change: width, height, left, top;
+    position: relative;
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .searchButton {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .addWrapper {
+    width: 80rem;
+    margin-left: 2rem;
+    padding: 0rem 4rem;
+    background: #fff;
+  }
+}
+
+.contentWrapper {
+  height: 66.5rem;
+  margin: 2rem 3rem 2rem 3rem;
+  padding: 2rem 4rem;
+  background: #fff;
+  .delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+  }
+  .listWrapper {
+    margin: 0 auto;
+    height: 53rem;
+  }
+}

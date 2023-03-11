@@ -1,0 +1,100 @@
+@import 'styles/variable.scss';
+
+.marginAuto {
+  margin: 0 auto;
+}
+
+.mismatchedBorder {
+  outline: 0.2rem solid rgba(225, 39, 84, 0.7);
+  transition: 0.2s all ease;
+
+  &:focus-within {
+    outline: 0.2rem solid rgba(225, 39, 84, 1);
+  }
+}
+
+.mismatched {
+  font-family: $font-family-base;
+  font-size: $font-size-heading5;
+  color: rgba(225, 39, 84, 1);
+  padding-top: 0.5rem;
+}
+
+.formBackground {
+  background-color: $color-lightgrey;
+  min-height: 100vh;
+  width: 100%;
+
+  .formReturn {
+    font-weight: bold;
+    font-family: $font-family-base;
+    font-size: $font-size-heading1;
+    padding: 7rem 0 0 3rem;
+    .return {
+      color: $color-black;
+      .icon {
+        font-weight: bold;
+        padding: 0 1rem 0 0;
+      }
+    }
+  }
+
+  .formBody {
+    background: white;
+    width: 45%;
+    margin: 0 auto;
+    box-shadow: $box-shadow-login;
+    border-radius: 5rem;
+    padding: 2rem 1rem;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .formInput {
+      padding: 1.5rem 5.2rem;
+    }
+
+    .length {
+      width: 40%;
+    }
+  }
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1366px) {
+  .formBackground {
+    .formReturn {
+      .return {
+        padding: 4rem 0 0 1rem;
+        font-size: 2.6rem;
+      }
+    }
+    .formBody {
+      padding: 1rem;
+      .formInput {
+        padding: 1rem 2.2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1024px) {
+  .formBackground {
+    .formReturn {
+      .return {
+        padding: 4rem 0 0 1rem;
+        font-size: 2.6rem;
+      }
+    }
+    .formBody {
+      padding: 1rem;
+      .formInput {
+        padding: 0.5rem 1.5rem;
+      }
+
+      .length {
+        width: 50%;
+      }
+    }
+  }
+}

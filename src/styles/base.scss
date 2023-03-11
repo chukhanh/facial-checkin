@@ -1,0 +1,26 @@
+@import './variable.scss';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    /* default font-size: 16px -> 62.5% * 16px = 10px */
+    /* => 1rem = 10px*/
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    @media (max-width: $screen-sm) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-size: $font-size-base;
+    color: $color-black;
+    font-family: $font-family-base;
+}  
+
+
+

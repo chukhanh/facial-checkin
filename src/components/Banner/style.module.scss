@@ -1,0 +1,61 @@
+@import 'styles/variable.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem !important;
+  background: #27aae1 !important;
+  .logo {
+    width: 10%;
+  }
+  .menuIcon {
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    span {
+      color: #fff;
+      font-family: $font-family-base;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.125em;
+    }
+    .caretDownIcon {
+      font-size: 0.938em;
+      color: #fff;
+    }
+  }
+}
+
+.notimenu {
+  width: 35rem;
+  max-height: 60rem;
+  overflow-y: auto;
+  .noti {
+    padding: 1rem 2rem;
+    // border-bottom: 1px solid #000;
+    .notiBox {
+      display: block;
+      span {
+        word-break: break-word;
+        white-space: normal;
+      }
+      h4 {
+        color: #a8abb4;
+        font-size: 12px;
+        word-break: break-word;
+        white-space: normal;
+      }
+    }
+  }
+}
+
+.empty {
+  padding: 1rem 1rem;
+}

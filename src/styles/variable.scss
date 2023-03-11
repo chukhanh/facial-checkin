@@ -1,0 +1,46 @@
+// Screen
+$screen-lg: 1024px;
+$screen-md: 768px;
+$screen-sm: 420px;
+$screen-xs: 375px;
+
+
+// color
+$color-lightgrey: lightgrey;
+$color-black: #000000;
+$color-gray: #555555;
+$color-blue: #27AAE1;
+$color-button: #27AAE1;
+$color-backgroud: #FFFFFF;
+$color-select-table-background: rgba(196, 196, 196, 0.3);
+
+// Shadow
+$box-shadow-login: 25px 25px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+$box-shadow-reset-password: 25px 25px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+$box-shadow-change-password: 25px 25px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+
+// Font
+$font-size-initial: 14px; // reset default browser value from 16px to 13px
+$font-size-base: 1rem !default;
+$font-size-lg: 1.25rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-larger: 1.1rem;
+$font-size-mini: 0.9rem;
+$font-size-index: 0.7rem;
+
+$font-size-heading1: 3.6rem;
+$font-size-heading2: 3.2rem;
+$font-size-heading3: 3rem;
+$font-size-heading4: 2.6rem;
+$font-size-heading5: 2.2rem;
+$font-size-heading6: 1.8rem;
+
+$font-size-base: 1.6rem;
+
+$font-family-base: "Open Sans", sans-serif;
+
+// Logo
+$payoo-logo: "https://sandboxv3.payoo.vn/theme/img/payoo.svg";
+
+// Icon Font
+

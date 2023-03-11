@@ -1,0 +1,80 @@
+@import 'styles/variable.scss';
+
+.formBackground {
+  background-color: $color-lightgrey;
+  min-height: 100vh;
+
+  .formReturn {
+    font-weight: bold;
+    font-family: $font-family-base;
+    font-size: $font-size-heading1;
+
+    padding: 7rem 0 0 3rem;
+    .return {
+      color: $color-black;
+      .icon {
+        font-weight: bold;
+        padding: 0 1rem 0 0;
+      }
+    }
+  }
+
+  .formBody {
+    background: white;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: $box-shadow-login;
+    border-radius: 3rem;
+    padding: 1rem 0;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .formEmail {
+      padding: 2rem 5.2rem;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1366px) {
+  .formBackground {
+    .formReturn {
+      .return {
+        padding: 4rem 0 0 1rem;
+        font-size: 2.6rem;
+      }
+    }
+    .formBody {
+      border-radius: 3rem;
+      width: 40%;
+      padding: 1rem;
+
+      .formEmail {
+        padding: 1rem 2.2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 768px) and (max-width: 1024px) {
+  .formBackground {
+    .formReturn {
+      .return {
+        padding: 2rem 0 0 1rem;
+        font-size: 2.2rem;
+      }
+    }
+    .formBody {
+      border-radius: 3rem;
+      width: 40%;
+      padding: 0.5rem;
+
+      .formEmail {
+        padding: 0.5rem 2.2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+@import 'styles/variable.scss';
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 2rem 4rem;
+  background: #fff;
+}
+.container {
+  height: 100%;
+  margin: 3rem 3rem 2rem 3rem;
+  padding: 6rem 10rem;
+  background: #fff;
+  .contentWrapper {
+    display: flex;
+    justify-content: center;
+    .leftContent {
+      margin-right: 5rem;
+      .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+      }
+      .info {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        margin-top: 3rem;
+        h3 {
+          text-align: center;
+          width: 27rem;
+          margin: -1.3rem auto;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          background: white;
+        }
+        .inputWrapper {
+          margin: 1rem auto;
+          padding: 2.6rem 4rem;
+          span {
+            font-style: normal;
+          }
+        }
+      }
+    }
+    .rightContent {
+      .info {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        h3 {
+          text-align: center;
+          width: 27rem;
+          margin: -1.3rem auto;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          background: white;
+        }
+        .inputWrapper {
+          width: 95rem;
+          padding: 3.5rem 4rem;
+          .label {
+            font-style: normal;
+            font-weight: bold;
+            color: $color-button;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    .buttonStyle {
+      width: 15rem;
+      background: $color-button !important;
+      color: #fff !important;
+      margin-left: 5rem;
+    }
+    .buttonCancelStyle {
+      width: 15rem;
+      background: #c4c4c4 !important;
+      color: #fff !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+  .container {
+    .contentWrapper {
+      .rightContent {
+        .info {
+          .inputWrapper {
+            width: 80rem;
+            .label {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .container {
+    .contentWrapper {
+      .rightContent {
+        .info {
+          .inputWrapper {
+            width: 70rem;
+            .label {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  .container {
+    .contentWrapper {
+      display: block;
+      .leftContent {
+        margin-bottom: 3rem;
+        margin-right: 0px;
+      }
+      .rightContent {
+        display: flex;
+        justify-content: center;
+        .info {
+          width: 70rem;
+          .inputWrapper {
+            width: 70rem;
+            .label {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+  .container {
+    .contentWrapper {
+      display: block;
+      .leftContent {
+        margin-bottom: 3rem;
+        margin-right: 0px;
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .rightContent {
+        display: flex;
+        justify-content: center;
+        .info {
+          width: 40rem;
+          .inputWrapper {
+            width: 40rem;
+            .label {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 699px) {
+  .container {
+    .contentWrapper {
+      display: block;
+      .leftContent {
+        margin-bottom: 3rem;
+        margin-right: 0px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .rightContent {
+        display: flex;
+        justify-content: center;
+        .info {
+          width: 20rem;
+          h3 {
+            width: 15rem;
+          }
+          .inputWrapper {
+            width: 20rem;
+            .label {
+            }
+          }
+        }
+      }
+    }
+  }
+}

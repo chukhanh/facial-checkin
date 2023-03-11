@@ -1,0 +1,95 @@
+@import 'styles/variable.scss';
+
+* {
+  .buttonAdd1Staff {
+    margin-left: 2rem;
+  }
+  .buttonStyle {
+    background: $color-button !important;
+    color: #fff !important;
+  }
+
+  .buttonCancelStyle {
+    background: #c4c4c4 !important;
+    color: #fff !important;
+  }
+
+  .deleteButton {
+    width: 12rem;
+    margin-left: 2rem !important;
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  padding: 2rem 4rem;
+  background: #fff;
+
+  .buttonWrapper {
+    display: flex;
+    justify-content: flex-start;
+
+    .addStaffButton {
+      margin-right: 2rem;
+      background: $color-button;
+      color: #fff;
+    }
+  }
+}
+
+.searchWrapper {
+  margin: 2rem 3rem 2rem 3rem;
+  padding: 2rem 4rem;
+  background: #fff;
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .searchButton {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  margin: 2rem 3rem 2rem 3rem;
+  .tableWrapper {
+    // max-width: 168rem;
+    height: 64rem;
+    padding: 2rem 4rem;
+    background: #fff;
+
+    .imageNotFound {
+      width: 90%;
+    }
+
+    .resultSearch {
+      margin-bottom: 2rem;
+    }
+    .listWrapper {
+      margin: 0 auto;
+      height: 53rem;
+    }
+    .export {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .commentWrapper {
+    // max-width: 100rem;
+    margin-left: 2rem;
+    padding: 0rem 2rem;
+    background: #fff;
+  }
+}
+
+.delete {
+  display: flex;
+  margin: 0 2rem;
+}

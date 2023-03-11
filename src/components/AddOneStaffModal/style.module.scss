@@ -1,0 +1,46 @@
+@import 'styles/variable.scss';
+
+.contentWrapper {
+  margin-bottom: 2rem;
+  .avatar {
+    text-align: center;
+    margin-bottom: 2rem;
+    .name {
+      font-weight: 600;
+      font-size: $font-size-initial;
+    }
+  }
+  .info {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    h3 {
+      text-align: center;
+      width: 27rem;
+      margin: -1.3rem auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      background: white;
+    }
+    .inputWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 2rem auto;
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    .buttonStyle {
+      background: $color-button !important;
+      color: #fff !important;
+      margin-left: 1rem;
+    }
+    .buttonCancelStyle {
+      background: #c4c4c4 !important;
+      color: #fff !important;
+    }
+  }
+}
